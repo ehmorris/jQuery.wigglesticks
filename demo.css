@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 4em 0 40em;
+}
+
+.parent {
+  overflow: auto;
+  position: relative;
+}
+
+.wiggle {
+  background: #9f9f9f;
+  border: 2px dashed #666;
+  border-style: solid dashed;
+  border-width: 2em 2px;
+  box-sizing: border-box;
+  float: left;
+  font-weight: bold;
+  height: 1200px;
+  padding: 4em 0;
+  text-align: center;
+  width: 25%;
+}
+
+.wiggle.stickit {
+  top: 0;
+  position: fixed;
+}
+
+.wiggle.stickit-tall {
+  bottom: 0;
+  position: fixed;
+}
+
+.wiggle.stickit-end {
+  bottom: 0;
+  position: absolute;
+  width: 25%;
+}
+
+article {
+  background: #eee;
+  border: 2px dashed #ccc;
+  border-style: solid dashed;
+  border-width: 2em 2px;
+  box-sizing: border-box;
+  color: #666;
+  float: right;
+  height: 3200px;
+  padding: 4em 0;
+  text-align: center;
+  width: 70%;
+}
