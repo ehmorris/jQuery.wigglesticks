@@ -117,7 +117,7 @@
           // set this so we know where to pause the item when scrolling up
           relative_top_pos_up = $(item).offset().top - $(parent).offset().top;
 
-          if (at_bottom_of_item() && $(item).css('position') == 'absolute') {
+          if (at_bottom_of_item()) {
             $(item).css({
               'position': 'fixed',
               'top': 'auto',
