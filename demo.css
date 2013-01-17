@@ -9,7 +9,28 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1140px;
-  padding: 4em 0 40em;
+  padding: 6em 0 40em;
+}
+
+hgroup {
+  margin: auto auto 6em;
+  min-width: 400px;
+  text-rendering: optimizeLegibility;
+  width: 60%;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3em;
+}
+
+hgroup h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+hgroup h2 {
+  font-weight: normal;
+  font-size: 1.2em;
 }
 
 .parent {
@@ -24,11 +45,14 @@ body {
   border-width: 2em 2px;
   box-sizing: border-box;
   float: left;
-  font-weight: bold;
   height: 1200px;
-  padding: 4em 0;
+  padding: 4em 2em;
   text-align: center;
   width: 25%;
+}
+
+.wiggle p:first-child {
+  font-weight: bold;
 }
 
 .wiggle.stickit {
@@ -56,7 +80,7 @@ article {
   color: #666;
   float: right;
   height: 3200px;
-  padding: 4em 0;
+  padding: 4em 2em;
   text-align: center;
   width: 70%;
 }
