@@ -2,7 +2,7 @@
 
 ### About
 
-Wigglesticks extends jQuery.Stickem
+Wigglesticks extends [jQuery.Stickem](https://github.com/davist11/jQuery-Stickem)
 
 It allows taller-than-viewport sticky content to scroll independently while remaining stuck. 
 
